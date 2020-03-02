@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+*.log
+*.txt
+.idea
+node_modules/
+.*.json
+dist

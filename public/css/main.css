@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: lightblue;
+	padding: 5px;
+	overflow: hidden;
+}
+.buttons {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.switch_button {
+	margin: 6px;
+	border-radius: 30px;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline: none;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn {
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.form-remember-checkbox {
+	margin: 30px 10px 30px 0;
+}
+
+span {
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+.form-view {
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: -0.5s;
+}
+.register-form {
+	left: 450px;
+}
+.login-form {
+	left: 50px;
+}
+
+.register-button__set-register {
+	left: 50px;
+}
+
+.register-button__set-login {
+	left: -400px;
+}
+.login-button__set-login {
+	left: 50px;
+}
+.login-button__set-register {
+	left: 450px;
+}
